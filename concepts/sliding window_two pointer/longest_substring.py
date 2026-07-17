@@ -13,7 +13,7 @@ def longest_substring(arr,k):
                 max_len = max(max_len, j-i+1)
             else:
                 break
-    return max_len, [start, end]
+    return max_len, [i, j]
 
 print(longest_substring(arr, 14))
 
